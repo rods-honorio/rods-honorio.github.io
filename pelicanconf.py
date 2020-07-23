@@ -6,9 +6,9 @@ import datetime
 ## THINGS TO CONFIGURE
 ## ---------------------------------------------------------------------
 
-AUTHOR = u'A blog-o-matic user'
-SITENAME = u'My personal blog with blog-o-matic'
-SITESUBTITLE = u'This is where I do test things'
+AUTHOR = u'Rodrigo Honorio'
+SITENAME = u'Rods Blog'
+SITESUBTITLE = u'This is where I write my things down'
 SITEURL = u'/'
 DEFAULT_LANG = u'en'
 DEFAULT_CATEGORY = 'blog'
@@ -21,23 +21,14 @@ LANDING_PAGE_ABOUT = {'title': 'My blog',
 
 
 PROJECTS = [{'name': 'Blog-o-matic', 'url': 'https://github.com/iranzo/blog-o-matic',
-             'description': 'Canned blog automation for quickly setting up a blog with Pelican'},
-            {'name': 'Citellus', 'url': 'https://citellus.org',
-             'description': 'Troubleshooting automation tool with easy to contribute rules'},
-            {'name': 'Pablo Iranzo Blog', 'url': 'https://iranzo.github.io',
-             'description': 'Other projects at Github website'},
-            {'name': 'Redken Telegram BOT', 'url': 'https://t.me/redken_bot',
-             'description': 'A Telegram bot with support for Karma, RSS Feeds, Quotes, etc'}]
+             'description': 'Canned blog automation for quickly setting up a blog with Pelican'}]
 
 
-LINKS = (('Redken on telegram', 'https://t.me/redken_bot'),
-         ('RHJobs channel on TG', "https://t.me/rhjobs"),)
+LINKS = (('RHJobs channel on TG', "https://t.me/rhjobs"),)
 
 # Keep 'name' like 'twitter' with what 'FontAwesome has for putting the right icon'
 
-SOCIAL = (('Twitter', 'http://twitter.com/iranzop'),
-          ('github', 'http://github.com/iranzo'),
-          ('linkedin', 'https://www.linkedin.com/in/iranzo/'),)
+SOCIAL = (('github', 'http://github.com/rods-honorio'),)
 
 
 # TWITTER_USERNAME = "fillit"
@@ -69,7 +60,7 @@ PHOTO_THUMB = (192, 144, 60)
 PHOTO_SQUARE_THUMB = False
 PHOTO_RESIZE_JOBS = 5
 PHOTO_WATERMARK = True
-PHOTO_WATERMARK_TEXT = "© Pablo Iranzo Gómez (https://iranzo.github.io)"
+PHOTO_WATERMARK_TEXT = "© Rods Honorio (https://rods-honorio.github.io)"
 PHOTO_WATERMARK_IMG = ''
 PHOTO_EXIF_KEEP = False
 PHOTO_EXIF_REMOVE_GPS = True
